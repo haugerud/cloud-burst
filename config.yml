@@ -1,0 +1,32 @@
+# AWS credentials and settings
+aws_access_key_id: <ACCESS_KEY>
+aws_secret_access_key: <SECRET_ACCESS_KEY>
+default_region: eu-central-1
+
+# General settings
+execution_interval: 60
+mesos_zkurl: zk://192.168.0.5:2181,10.0.19.5:2181,172.16.0.5:2181/mesos
+marathon_port: 6060
+availability_zone: eu-central-1b
+
+# Baseline resources
+baseline_cpus: 40
+baseline_mem: 69610
+baseline_disk: 754810
+
+# Instance settings
+#instance_type: m3.medium
+#instance_cpus: 1
+#instance_mem: 2700
+#instance_disk: 8000
+instance_type: m3.large
+instance_cpus: 2
+instance_mem: 8000
+instance_disk: 8000
+
+# Request settings
+maximum_spot_slaves: 10
+maximum_bid_limit: 0.0500
+burst_point_percentage: 0.85
+spot_request_timeout: 600
+partial_hour_limit: 3300

@@ -1,0 +1,12 @@
+PyYAML==3.11
+argparse==1.2.1
+bcdoc==0.12.2
+boto3==0.0.16
+botocore==0.106.0
+distribute==0.6.24
+docutils==0.12
+futures==2.2.0
+jmespath==0.6.2
+python-dateutil==2.4.2
+six==1.9.0
+wsgiref==0.1.2
